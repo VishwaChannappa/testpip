@@ -6,10 +6,11 @@ with open("README.md", "r") as fh:
 setuptools.setup(
     name="testgitpip",
     version="0.0.1",
-    author="vishvishwa@quasnscendence.com",
+    author="vishwa",
+    author_email="vishwa@quasnscendence.com",
     description="It's pip... with git.",
     long_description=long_description,
-    url="https://github.com/VishwaChannappa/testgitpip",
+    url="https://github.com/VishwaChannappa/testpip",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
